@@ -1,0 +1,107 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+/* Variables CSS */
+
+:root{
+    --header-height: 3rem;
+    --font-medium: 500;
+}
+
+
+/* Colors */
+:root{
+    --first-color: #5361ff;
+    --white-color: #fafaff;
+    --dark-color: #2A3B47;
+    --text-color: #697477;
+}
+
+/* Font */
+:root{
+    --body-font: 'Montserrat', sans-serif;
+    --big-font-size: 6.25rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+}
+
+/* Margins */
+:root{
+    --mb-1: .5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+}
+
+body{
+    background-color: lightyellow;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display:grid;
+    margin: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:4px;
+    background-color: white;
+    padding:4px;
+    border-radius:5px;
+    max-width:360px;
+    box-shadow: 0.4em 0.4em 20px rgba(122, 122, 122, 0.5);
+    font-family: 'Montserrat', sans-serif;
+}
+.item{
+    background-color: #5361ff;
+    color: white;
+    padding:20px;
+    margin: 0.2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(122, 122, 122, 0.5);
+    border-radius: 5px 5px  5px 5px;
+}
+form{
+    max-width: 100%;
+}
+input{
+    width: 100%;
+    height: 60px;
+    border:none;
+    font-size: 30px;
+    outline: none;
+    text-align: right;
+}
+.input{
+    grid-column: 1/-1;
+    padding: 0;
+}
+.clean {
+    background-color: red;
+}
+.back{
+    color: blue;
+    background-color: white;
+}
+.bracket{
+    background-color: blue;
+}
+.arithmetic{
+    background-color: blue;
+}
+.equal{
+    grid-column: 1/5;
+
+    background-color: white;
+    color: blue;
+    border-radius: 0 10px;
+}
+.zero{
+    grid-column: 1/ 3;
+}
