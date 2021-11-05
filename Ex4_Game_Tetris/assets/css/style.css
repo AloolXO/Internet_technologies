@@ -1,0 +1,20 @@
+/*настройки стилей страницы*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+/*делаем чёрный фон и выравниваем всё по центру*/
+body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+/*толщина обводки холста — 1 пиксель, белый цвет*/
+canvas {
+    border: 1px solid white;
+    font-family: 'Oswald', sans-serif;
+}
